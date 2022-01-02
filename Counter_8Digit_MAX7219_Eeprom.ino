@@ -10,7 +10,7 @@
 #define MAX7219_Chip_Select  3
 #define MAX7219_Data_IN 4
 
-long d1=8, d2=7, d3=6, d4=5, d5=4, d6=3, d7=2, d8=1;
+long d1=0, d2=0, d3=0, d4=0, d5=0, d6=0, d7=0, d8=0;
 
 int flag1=0, flag2=0, timer=0;
 
