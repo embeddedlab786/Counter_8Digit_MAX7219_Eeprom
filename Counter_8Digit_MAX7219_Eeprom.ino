@@ -36,7 +36,7 @@ shift(0x0b, 0x07); //scan limit register - display digits 0 thru 7
 shift(0x0a, 0x0f); //intensity register - max brightness
 shift(0x09, 0xff); //decode mode register - CodeB decode all digits
 
-if(EEPROM.read(53)==0){
+if(EEPROM.read(0)==0){
 }else{WriteEeprom(); EEPROM.write(0,0);}
 ReadEeprom();
 
